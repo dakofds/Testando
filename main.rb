@@ -1,6 +1,6 @@
 require 'httparty'
 
-API_KEY = 'API-KEY'
+API_KEY = '2a353cfa63bb0e6da0be4292'
 
 def converter_moeda(de, para, valor)
   url = "https://v6.exchangerate-api.com/v6/#{API_KEY}/pair/#{de}/#{para}/#{valor}"
